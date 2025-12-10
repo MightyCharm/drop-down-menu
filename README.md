@@ -1,13 +1,13 @@
-# project-name
+# drop-down-menu
 
-Project: Project Name (The Odin Project: Course Name)
+- Project: Dropdown-menu (The Odin Project: JavaScript Course)
+
+- mini-project from lesson "Dynamic User Interface Interactions"
 
 ## Setup
 
-1. Clone the repo
-2. Run `npm install`
-3. Run `npm run dev`
-4. Open `http://localhost:8080`
+- Run `npm run dev`
+- `http://localhost:8080`
 
 ## Deploy
 

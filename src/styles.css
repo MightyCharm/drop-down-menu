@@ -5,5 +5,60 @@
 }
 
 body {
-    background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdown-container {
+  padding: 1rem;
+}
+
+.btn-nav {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background-color: green;
+  transition: background-color 0.3s ease;
+}
+
+.btn-nav:hover {
+  background-color: darkgreen;
+}
+
+.nav {
+  position: relative;
+  background-color: hsl(0, 0, 80%);
+}
+
+.nav-ul {
+  position: absolute;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  border: 1px solid hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 90%);
+  box-shadow: 2px 2px 5px hsl(0, 0%, 50%);
+}
+
+.nav-item {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.nav-link {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: black;
+}
+
+.hidden {
+  display: none;
 }
